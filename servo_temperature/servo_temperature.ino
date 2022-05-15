@@ -37,7 +37,7 @@ void setup() {
 void closeBlinds() {
   if (!closed) {
     mservo.writeMicroseconds(1000);
-    delay(600);
+    delay(1200);
     mservo.writeMicroseconds(1500);
     closed = true; 
   }
